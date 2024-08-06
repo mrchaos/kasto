@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kasto"
+version = "0.1.0"
+description = "KASTO비법 위 단속 크롤링 시스템"
+authors = ["mrchaos <mrchaos@naver.com>"]
+license = "proprietary"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,12 @@
+.ipynb_checkpoints/
+.pytest_cache/
+.files/
+__pycache__/
+logs/
+cache/
+*.log
+*.out
+
+
+
+
