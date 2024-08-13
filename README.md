@@ -40,4 +40,23 @@ $ Get-ChildItem -Path $env:APPDATA\Python\Scripts\ | Where-Object { $_.Name -lik
   $  poetry --version
 ```
 
+# Flet 설치
+```console
+$ conda activate kasto
+$ pip install flet
 
+# 패키징을 위한 Tool설치
+
+$ pip install pyinstaller
+```
+* Desktop 패키징 : https://flet.dev/docs/cookbook/packaging-desktop-app/
+
+# Desktop 패키징 방법 2번째
+* winodws powershell(관리자) 에서 `start ms-settings:developers` 를 실행하여 `개발자 모드`를 on 한다.
+* `flet build windows`
+
+# 기타
+## VSCode에서 spell check 비활성화
+ 1) VS Code를 열고 좌측 하단의 톱니바퀴 아이콘을 클릭하여 설정(Settings)을 엽니다.
+ 2) 검색 창에 "spell" 을 입력합니다.
+ 3) "Editor: Check Spelling" 옵션을 찾아 체크를 해제합니다.
